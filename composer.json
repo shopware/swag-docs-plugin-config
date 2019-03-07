@@ -1,0 +1,26 @@
+{
+    "name": "swag/plugin-config",
+    "description": "Plugin config example plugin",
+    "version": "v1.0.0",
+    "type": "shopware-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "installer-name": "PluginConfig",
+        "label": {
+            "de_DE": "Beispiel Plugin Config",
+            "en_GB": "Example plugin config"
+        },
+        "description": {
+            "de_DE": "Beispiel Plugin mit Konfiguration",
+            "en_GB": "Example plugin containing a configuration"
+        }
+    }
+}
