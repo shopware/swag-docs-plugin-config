@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PluginConfig;
+namespace Swag\PluginConfig;
 
 use Shopware\Core\Framework\Plugin;
 
