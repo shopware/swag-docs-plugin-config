@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\PluginConfig\\PluginConfig",
         "label": {
-            "de_DE": "Beispiel Plugin Config",
-            "en_GB": "Example plugin config"
+            "de-DE": "Beispiel Plugin Config",
+            "en-GB": "Example plugin config"
         },
         "description": {
-            "de_DE": "Beispiel Plugin mit Konfiguration",
-            "en_GB": "Example plugin containing a configuration"
+            "de-DE": "Beispiel Plugin mit Konfiguration",
+            "en-GB": "Example plugin containing a configuration"
         }
     },
     "autoload": {
