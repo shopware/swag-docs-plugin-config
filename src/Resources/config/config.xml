@@ -17,7 +17,7 @@
             <helpText lang="de-DE">Bitte trage deine persönliche E-Mail Adresse ein</helpText>
         </input-field>
 
-        <input-field type="select">
+        <input-field type="single-select">
             <name>mailMethod</name>
             <options>
                 <option>
