@@ -17,6 +17,12 @@
             <helpText lang="de-DE">Bitte trage deine persönliche E-Mail Adresse ein</helpText>
         </input-field>
 
+        <input-field>
+            <name>disabledInputField</name>
+            <label>This input field is disabled</label>
+            <disabled>1</disabled>
+        </input-field>
+
         <input-field type="single-select">
             <name>mailMethod</name>
             <options>
@@ -31,14 +37,11 @@
                     <name lang="de-DE">German pop3</name>
                 </option>
             </options>
+            <defaultValue>smtp</defaultValue>
             <label>Mail method</label>
             <label lang="de-DE">Versand Protokoll</label>
         </input-field>
-    </card>
 
-    <card>
-        <title>Advanced Configuration</title>
-        <title lang="de-DE">Erweiterte Einstellungen</title>
         <input-field type="password">
             <name>secret</name>
             <label>Secret token</label>
@@ -46,5 +49,33 @@
             <helpText>Your secret token for xyz...</helpText>
             <helpText lang="de-DE">Dein geheimer Schlüssel für xyz...</helpText>
         </input-field>
+    </card>
+
+    <card>
+        <title>Advanced Configuration</title>
+        <title lang="de-DE">Erweiterte Einstellungen</title>
+
+        <component name="sw-entity-single-select">
+            <name>exampleProduct</name>
+            <entity>product</entity>
+            <label>Choose a product for the plugin configuration</label>
+        </component>
+
+        <component name="sw-entity-multi-select">
+            <name>exampleMultiProducts</name>
+            <entity>product</entity>
+            <label>Choose multiple products for the plugin configuration</label>
+        </component>
+
+        <component name="sw-entity-multi-id-select">
+            <name>exampleMultiProductIds</name>
+            <entity>product</entity>
+            <label>Choose multiple products IDs for the plugin configuration</label>
+        </component>
+
+        <component name="sw-media-field">
+            <name>pluginMedia</name>
+            <label>Upload media or choose one from the media manager</label>
+        </component>
     </card>
 </config>
