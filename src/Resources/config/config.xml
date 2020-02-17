@@ -61,12 +61,6 @@
             <label>Choose a product for the plugin configuration</label>
         </component>
 
-        <component name="sw-entity-multi-select">
-            <name>exampleMultiProducts</name>
-            <entity>product</entity>
-            <label>Choose multiple products for the plugin configuration</label>
-        </component>
-
         <component name="sw-entity-multi-id-select">
             <name>exampleMultiProductIds</name>
             <entity>product</entity>
