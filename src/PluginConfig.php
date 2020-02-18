@@ -33,6 +33,10 @@ class PluginConfig extends Plugin
             return ['id' => $id];
         }, $idSearchResult->getIds());
 
+        if ($ids === []) {
+            return;
+        }
+
         $systemConfigRepository->delete($ids, $context);
     }
 }

@@ -71,5 +71,10 @@
             <name>pluginMedia</name>
             <label>Upload media or choose one from the media manager</label>
         </component>
+
+        <component name="sw-text-editor">
+            <name>textEditor</name>
+            <label>Write some nice text with WYSIWYG editor</label>
+        </component>
     </card>
 </config>
