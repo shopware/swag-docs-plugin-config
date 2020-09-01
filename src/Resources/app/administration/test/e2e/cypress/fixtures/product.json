@@ -1,0 +1,14 @@
+{
+    "name": "Cool Product",
+    "stock": 5,
+    "productNumber": "JK-360",
+    "descriptionLong": "Product description",
+    "price": [
+        {
+            "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+            "gross": 37.59,
+            "linked": false,
+            "net": 35.10
+        }
+    ]
+}

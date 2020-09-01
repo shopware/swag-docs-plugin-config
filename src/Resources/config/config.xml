@@ -9,7 +9,7 @@
         <input-field>
             <name>email</name>
             <copyable>true</copyable>
-            <label>eMail address</label>
+            <label>Email address</label>
             <label lang="de-DE">E-Mail Adresse</label>
             <placeholder>you@example.com</placeholder>
             <placeholder lang="de-DE">du@beispiel.de</placeholder>
@@ -58,13 +58,13 @@
         <component name="sw-entity-single-select">
             <name>exampleProduct</name>
             <entity>product</entity>
-            <label>Choose a product for the plugin configuration</label>
+            <label>Select a product...</label>
         </component>
 
         <component name="sw-entity-multi-id-select">
             <name>exampleMultiProductIds</name>
             <entity>product</entity>
-            <label>Choose multiple products IDs for the plugin configuration</label>
+            <label>Select multiple products...</label>
         </component>
 
         <component name="sw-media-field">
